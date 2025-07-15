@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
+from typing import List
 import logging
 import os
 from dotenv import load_dotenv
